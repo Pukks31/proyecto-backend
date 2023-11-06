@@ -4,11 +4,11 @@
       <div class="row">
       <div class="col-lg-12 margin-tb">
       <div class="pull-left">
-      <h2>Gestión de roles</h2>
+      <h2>Role Management</h2>
       </div>
       <div class="pull-right">
       @can('role-create')
-      <a class="btn btn-success" href="{{ route('roles.create') }}"> Crear nuevo rol</a>
+      <a class="btn btn-success" href="{{ route('roles.create') }}"> Create New Role</a>
       @endcan
       </div>
       </div>
@@ -25,7 +25,7 @@
       <table class="table table-bordered">
       <tr>
       <th>No</th>
-      <th>Nombre</th>
+      <th>Name</th>
       <th width="280px">Action</th>
       </tr>
 
@@ -51,4 +51,7 @@
 
 
       {!! $roles->render() !!}
+
+
+      <p class="text-center text-primary"><small>Tutorial by ticsacorporativo.com</small></p>
       @endsection

@@ -3,7 +3,7 @@
         <head>
           <meta charset="utf-8">
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <title>Proyecto backend</title>
+          <title>TIC´SA</title>
           <!-- Tell the browser to be responsive to screen width -->
           <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
           <!-- Bootstrap 3.3.5 -->
@@ -13,10 +13,10 @@
           <!-- Theme style -->
           <link rel="stylesheet" href="/sisVentas/public/css/AdminLTE.min.css">
           <!-- AdminLTE Skins. Choose a skin from the css/skins
-               folder instead of downloading all of them to reduce the load. 
+               folder instead of downloading all of them to reduce the load. -->
           <link rel="stylesheet" href="/sisVentas/public/css/_all-skins.min.css">
           <link rel="apple-touch-icon" href="/sisVentas/public/img/apple-touch-icon.png">
-          <link rel="shortcut icon" href="/sisVentas/public/img/favicon.ico">-->
+          <link rel="shortcut icon" href="/sisVentas/public/img/favicon.ico">
       
         </head>
         <body class="hold-transition skin-blue sidebar-mini">
@@ -25,11 +25,11 @@
             <header class="main-header">
       
               <!-- Logo -->
-              <a href="" class="logo">
+              <a href="index2.html" class="logo">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
-                <span class="logo-mini"></span>
+                <span class="logo-mini"><b>AD</b>V</span>
                 <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"></span>
+                <span class="logo-lg"><b>TIC´SA</b></span>
               </a>
       
               <!-- Header Navbar: style can be found in header.less -->
@@ -52,6 +52,13 @@
                       <ul class="dropdown-menu">
                         <!-- User image -->
                         <li class="user-header">
+                          
+                          <p>
+                            www.corporativoticsa.com - Desarrollando Software
+                            <small>www.youtube.com/@ticsatoluca</small>
+                          </p>
+                        </li>
+                        
                         <!-- Menu Footer-->
                         <li class="user-footer">
                           
@@ -128,12 +135,29 @@
                       <li><a href="{{ route('roles.index') }}"><i class="fa fa-circle-o"></i> Roles</a></li>
                       
                     </ul>
-                  </li>       
+                  </li>
+                   <li>
+                    <a href="#">
+                      <i class="fa fa-plus-square"></i> <span>Ayuda</span>
+                      <small class="label pull-right bg-red">PDF</small>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-info-circle"></i> <span>Acerca De...</span>
+                      <small class="label pull-right bg-yellow">IT</small>
+                    </a>
+                  </li>
+                              
                 </ul>
               </section>
               <!-- /.sidebar -->
             </aside>
-
+      
+      
+      
+      
+      
              <!--Contenido-->
             <!-- Content Wrapper. Contains page content -->
             <div class="content-wrapper">
@@ -171,6 +195,15 @@
       
               </section><!-- /.content -->
             </div><!-- /.content-wrapper -->
+            <!--Fin-Contenido-->
+            <footer class="main-footer">
+              <div class="pull-right hidden-xs">
+                <b>Version</b> 2.3.0
+              </div>
+              <strong>Copyright © 2010-2023 <a href="www.corporativoticsa.com">TIC´SA</a>.</strong> All rights reserved.
+            </footer>
+      
+            
           <!-- jQuery 2.1.4 -->
           <script src="/sisVentas/public/js/jQuery-2.1.4.min.js"></script>
           <!-- Bootstrap 3.3.5 -->
